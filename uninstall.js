@@ -70,7 +70,7 @@ function removeAwareness() {
     if (line.trim() === IMPORT_LINE) return false;
     // Also drop the comment line we wrote above the import, if present.
     if (
-      line.startsWith("# q queue awareness (managed by") &&
+      line.startsWith("# q queue awareness (managed by github.com/eran-broder/q") &&
       lines[i + 1] &&
       lines[i + 1].trim() === IMPORT_LINE
     ) {

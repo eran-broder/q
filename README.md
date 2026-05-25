@@ -42,7 +42,7 @@ Outside Claude Code (plain terminal), the queue is **cwd-scoped** at `.claude/fo
 Requirements: **Node.js 14+** and **Claude Code**. Nothing else.
 
 ```bash
-git clone https://github.com/<your-user>/q
+git clone https://github.com/eran-broder/q
 cd q
 ./install.sh       # POSIX: macOS, Linux, WSL
 # or
@@ -52,7 +52,7 @@ cd q
 Or in one shot:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-user>/q/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/eran-broder/q/main/install.sh | bash
 ```
 
 The installer:

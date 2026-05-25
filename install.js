@@ -128,7 +128,7 @@ function installAwareness() {
   }
 
   const sep = content.length === 0 || content.endsWith("\n") ? "" : "\n";
-  const append = `${sep}\n# q queue awareness (managed by github.com/<your-user>/q — remove this line to disable)\n${IMPORT_LINE}\n`;
+  const append = `${sep}\n# q queue awareness (managed by github.com/eran-broder/q — remove this line to disable)\n${IMPORT_LINE}\n`;
   fs.writeFileSync(USER_CLAUDE_MD, content + append, "utf8");
   log(`appended @import to ${USER_CLAUDE_MD}`);
 }
