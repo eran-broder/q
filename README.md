@@ -39,7 +39,7 @@ Outside Claude Code (plain terminal), the queue is **cwd-scoped** at `.claude/fo
 
 ## Install
 
-Requirements: **Node.js 14+** and **Claude Code**. Nothing else.
+Requirements: **Node.js 20+** and **Claude Code**. Nothing else.
 
 ```bash
 git clone https://github.com/eran-broder/q

@@ -42,8 +42,8 @@ function head(msg) {
 function checkNode() {
   head("[1/5] checking node");
   const ver = process.versions.node.split(".").map(Number);
-  if (ver[0] < 14) {
-    throw new Error(`node >=14 required (have ${process.versions.node})`);
+  if (ver[0] < 20) {
+    throw new Error(`node >=20 required (have ${process.versions.node})`);
   }
   log(`node ${process.versions.node} ✓`);
 }
